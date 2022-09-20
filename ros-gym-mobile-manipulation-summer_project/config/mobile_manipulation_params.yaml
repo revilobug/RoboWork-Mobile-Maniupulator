@@ -1,0 +1,35 @@
+mobile_manipulation_rl:
+  robot_namespace: "bvr_SIM"
+  arm_namespace: "main_arm_SIM"
+  simulation:
+    sleep_on_action: 0.1 # in seconds, amount of time to sleep after publishing action
+    # poses: (x, y, z, roll, pitch, yaw)
+    init_cinder_pose: [3.07991, 0.107552, 0.049095, 0.0, 0.0, 0.0]
+    init_timber_pose: [2.970025, 0.108175, 0.303864, 0.0, 0.0, 0.0]
+  main_arm_joints: ["shoulder_pan_joint", "shoulder_lift_joint", "elbow_joint", "wrist_1_joint", "wrist_2_joint", "wrist_3_joint"]
+  goal:
+    position_tolerance: 0.076 # in meters (3 inches)
+    orientation_tolerance: 0.174 # in radians (10 degrees)
+    completion_reward: 100
+  training:
+    is_training: True ###False
+    load_weights: False ###True
+    reward_threshold: 90.0 # early stopping
+    num_consecutive_episodes: 10 # early stopping if average reward in num_consecutive_episodes >= reward_threshold
+    steps_before_update: 512 # number of steps before updating policy (cannot be larger than buffer size) here around every 2 episodes
+    buffer_max_size: 1024 # the maximum length of memory buffer
+    num_episodes_training: 1000 # number of episodes to run in training
+    num_episodes_testing: 20 # number of episodes to run in testing
+    num_steps_per_episode: 256
+    minibatch: 32 # minibatch size per policy update
+    ppo_epochs: 16 # number of epochs in each policy update
+    policy_params: 5
+    value_clip: 0.2 # clipping value for clipped objective
+    vf_loss_coef: 0.5 # value function loss coefficient (critic)
+    gamma: 0.99 # discount rate
+    lam: 0.95  # GAE weight
+    learning_rate: 0.0003
+    save_model_path: '/home/rwl/autonomous_mobile_manipulation_ws'
+    log_frequency: 5 # log reward every 5 episodes
+    print_frequency: 2048 # every 8 episodes
+    save_weights_frequency: 3000 # 3000 timesteps

@@ -1,0 +1,7 @@
+<launch>
+	<group>
+		<rosparam file="$(find ros_gym_mobile_manipulation)/config/mobile_manipulation_params.yaml" command="load" ns="/bvr_SIM"/>
+	    <!-- Launch the training system -->
+	    <node pkg="ros_gym_mobile_manipulation" name="mobile_manipulation" type="mobile_manipulation.py" output="screen"/>
+	</group>
+</launch>

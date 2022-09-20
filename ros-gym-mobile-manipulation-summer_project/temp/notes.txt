@@ -1,0 +1,313 @@
+===================rostopic list=========================
+/bvr_SIM/attached_collision_object
+/bvr_SIM/bvr_SIM_odom_message_to_tf/euler
+/bvr_SIM/bvr_SIM_odom_message_to_tf/pose
+/bvr_SIM/bvr_SIM_velocity_controller/cmd_vel
+/bvr_SIM/bvr_SIM_velocity_controller/odom
+/bvr_SIM/bvr_SIM_velocity_controller/parameter_descriptions
+/bvr_SIM/bvr_SIM_velocity_controller/parameter_updates
+/bvr_SIM/bvr_SIM_velocity_controller_SIM/odom
+/bvr_SIM/bvr_imu/data
+/bvr_SIM/bvr_imu/data/accel/parameter_descriptions
+/bvr_SIM/bvr_imu/data/accel/parameter_updates
+/bvr_SIM/bvr_imu/data/bias
+/bvr_SIM/bvr_imu/data/rate/parameter_descriptions
+/bvr_SIM/bvr_imu/data/rate/parameter_updates
+/bvr_SIM/bvr_imu/data/yaw/parameter_descriptions
+/bvr_SIM/bvr_imu/data/yaw/parameter_updates
+/bvr_SIM/cmd_vel
+/bvr_SIM/collision_object
+/bvr_SIM/e_stop
+/bvr_SIM/execute_trajectory/cancel
+/bvr_SIM/execute_trajectory/feedback
+/bvr_SIM/execute_trajectory/goal
+/bvr_SIM/execute_trajectory/result
+/bvr_SIM/execute_trajectory/status
+/bvr_SIM/gazebo_ros_control/pid_gains/bvr_SIM/main_arm_SIM/gripper/left_inner_finger_joint/parameter_descriptions
+/bvr_SIM/gazebo_ros_control/pid_gains/bvr_SIM/main_arm_SIM/gripper/left_inner_finger_joint/parameter_updates
+/bvr_SIM/gazebo_ros_control/pid_gains/bvr_SIM/main_arm_SIM/gripper/left_inner_finger_joint/state
+/bvr_SIM/gazebo_ros_control/pid_gains/bvr_SIM/main_arm_SIM/gripper/left_inner_knuckle_joint/parameter_descriptions
+/bvr_SIM/gazebo_ros_control/pid_gains/bvr_SIM/main_arm_SIM/gripper/left_inner_knuckle_joint/parameter_updates
+/bvr_SIM/gazebo_ros_control/pid_gains/bvr_SIM/main_arm_SIM/gripper/left_inner_knuckle_joint/state
+/bvr_SIM/gazebo_ros_control/pid_gains/bvr_SIM/main_arm_SIM/gripper/right_inner_finger_joint/parameter_descriptions
+/bvr_SIM/gazebo_ros_control/pid_gains/bvr_SIM/main_arm_SIM/gripper/right_inner_finger_joint/parameter_updates
+/bvr_SIM/gazebo_ros_control/pid_gains/bvr_SIM/main_arm_SIM/gripper/right_inner_finger_joint/state
+/bvr_SIM/gazebo_ros_control/pid_gains/bvr_SIM/main_arm_SIM/gripper/right_inner_knuckle_joint/parameter_descriptions
+/bvr_SIM/gazebo_ros_control/pid_gains/bvr_SIM/main_arm_SIM/gripper/right_inner_knuckle_joint/parameter_updates
+/bvr_SIM/gazebo_ros_control/pid_gains/bvr_SIM/main_arm_SIM/gripper/right_inner_knuckle_joint/state
+/bvr_SIM/gazebo_ros_control/pid_gains/bvr_SIM/main_arm_SIM/gripper/right_outer_knuckle_joint/parameter_descriptions
+/bvr_SIM/gazebo_ros_control/pid_gains/bvr_SIM/main_arm_SIM/gripper/right_outer_knuckle_joint/parameter_updates
+/bvr_SIM/gazebo_ros_control/pid_gains/bvr_SIM/main_arm_SIM/gripper/right_outer_knuckle_joint/state
+/bvr_SIM/joint_states
+/bvr_SIM/joy_teleop/cmd_vel
+/bvr_SIM/l515/aligned_depth_to_color/camera_info
+/bvr_SIM/l515/aligned_depth_to_color/image_raw
+/bvr_SIM/l515/color/camera_info
+/bvr_SIM/l515/color/image_raw
+/bvr_SIM/l515/depth/color/points
+/bvr_SIM/l515/parameter_descriptions
+/bvr_SIM/l515/parameter_updates
+/bvr_SIM/l515_odom
+/bvr_SIM/main_arm_SIM/robotiq_controller/command
+/bvr_SIM/main_arm_SIM/robotiq_controller/follow_joint_trajectory/cancel
+/bvr_SIM/main_arm_SIM/robotiq_controller/follow_joint_trajectory/feedback
+/bvr_SIM/main_arm_SIM/robotiq_controller/follow_joint_trajectory/goal
+/bvr_SIM/main_arm_SIM/robotiq_controller/follow_joint_trajectory/result
+/bvr_SIM/main_arm_SIM/robotiq_controller/follow_joint_trajectory/status
+/bvr_SIM/main_arm_SIM/robotiq_controller/state
+/bvr_SIM/main_arm_SIM/velocity_controller/command
+/bvr_SIM/main_arm_SIM/velocity_controller/follow_joint_trajectory/cancel
+/bvr_SIM/main_arm_SIM/velocity_controller/follow_joint_trajectory/feedback
+/bvr_SIM/main_arm_SIM/velocity_controller/follow_joint_trajectory/goal
+/bvr_SIM/main_arm_SIM/velocity_controller/follow_joint_trajectory/result
+/bvr_SIM/main_arm_SIM/velocity_controller/follow_joint_trajectory/status
+/bvr_SIM/main_arm_SIM/velocity_controller/gains/bvr_SIM/main_arm_SIM/elbow_joint/parameter_descriptions
+/bvr_SIM/main_arm_SIM/velocity_controller/gains/bvr_SIM/main_arm_SIM/elbow_joint/parameter_updates
+/bvr_SIM/main_arm_SIM/velocity_controller/gains/bvr_SIM/main_arm_SIM/shoulder_lift_joint/parameter_descriptions
+/bvr_SIM/main_arm_SIM/velocity_controller/gains/bvr_SIM/main_arm_SIM/shoulder_lift_joint/parameter_updates
+/bvr_SIM/main_arm_SIM/velocity_controller/gains/bvr_SIM/main_arm_SIM/shoulder_pan_joint/parameter_descriptions
+/bvr_SIM/main_arm_SIM/velocity_controller/gains/bvr_SIM/main_arm_SIM/shoulder_pan_joint/parameter_updates
+/bvr_SIM/main_arm_SIM/velocity_controller/gains/bvr_SIM/main_arm_SIM/wrist_1_joint/parameter_descriptions
+/bvr_SIM/main_arm_SIM/velocity_controller/gains/bvr_SIM/main_arm_SIM/wrist_1_joint/parameter_updates
+/bvr_SIM/main_arm_SIM/velocity_controller/gains/bvr_SIM/main_arm_SIM/wrist_2_joint/parameter_descriptions
+/bvr_SIM/main_arm_SIM/velocity_controller/gains/bvr_SIM/main_arm_SIM/wrist_2_joint/parameter_updates
+/bvr_SIM/main_arm_SIM/velocity_controller/gains/bvr_SIM/main_arm_SIM/wrist_3_joint/parameter_descriptions
+/bvr_SIM/main_arm_SIM/velocity_controller/gains/bvr_SIM/main_arm_SIM/wrist_3_joint/parameter_updates
+/bvr_SIM/main_arm_SIM/velocity_controller/state
+/bvr_SIM/move_base/NavfnROS/plan
+/bvr_SIM/move_base/TebLocalPlannerROS/global_plan
+/bvr_SIM/move_base/TebLocalPlannerROS/local_plan
+/bvr_SIM/move_base/TebLocalPlannerROS/obstacles
+/bvr_SIM/move_base/TebLocalPlannerROS/parameter_descriptions
+/bvr_SIM/move_base/TebLocalPlannerROS/parameter_updates
+/bvr_SIM/move_base/TebLocalPlannerROS/teb_feedback
+/bvr_SIM/move_base/TebLocalPlannerROS/teb_markers
+/bvr_SIM/move_base/TebLocalPlannerROS/teb_poses
+/bvr_SIM/move_base/TebLocalPlannerROS/via_points
+/bvr_SIM/move_base/cancel
+/bvr_SIM/move_base/current_goal
+/bvr_SIM/move_base/feedback
+/bvr_SIM/move_base/global_costmap/costmap
+/bvr_SIM/move_base/global_costmap/costmap_updates
+/bvr_SIM/move_base/global_costmap/footprint
+/bvr_SIM/move_base/global_costmap/inflation_layer/parameter_descriptions
+/bvr_SIM/move_base/global_costmap/inflation_layer/parameter_updates
+/bvr_SIM/move_base/global_costmap/parameter_descriptions
+/bvr_SIM/move_base/global_costmap/parameter_updates
+/bvr_SIM/move_base/global_costmap/static_map_layer/parameter_descriptions
+/bvr_SIM/move_base/global_costmap/static_map_layer/parameter_updates
+/bvr_SIM/move_base/goal
+/bvr_SIM/move_base/local_costmap/costmap
+/bvr_SIM/move_base/local_costmap/costmap_updates
+/bvr_SIM/move_base/local_costmap/footprint
+/bvr_SIM/move_base/local_costmap/inflation_layer/parameter_descriptions
+/bvr_SIM/move_base/local_costmap/inflation_layer/parameter_updates
+/bvr_SIM/move_base/local_costmap/parameter_descriptions
+/bvr_SIM/move_base/local_costmap/parameter_updates
+/bvr_SIM/move_base/local_costmap/static_map_layer/parameter_descriptions
+/bvr_SIM/move_base/local_costmap/static_map_layer/parameter_updates
+/bvr_SIM/move_base/parameter_descriptions
+/bvr_SIM/move_base/parameter_updates
+/bvr_SIM/move_base/result
+/bvr_SIM/move_base/status
+/bvr_SIM/move_group/cancel
+/bvr_SIM/move_group/display_contacts
+/bvr_SIM/move_group/display_planned_path
+/bvr_SIM/move_group/feedback
+/bvr_SIM/move_group/goal
+/bvr_SIM/move_group/monitored_planning_scene
+/bvr_SIM/move_group/moveit_output_cloud
+/bvr_SIM/move_group/ompl/parameter_descriptions
+/bvr_SIM/move_group/ompl/parameter_updates
+/bvr_SIM/move_group/plan_execution/parameter_descriptions
+/bvr_SIM/move_group/plan_execution/parameter_updates
+/bvr_SIM/move_group/planning_scene_monitor/parameter_descriptions
+/bvr_SIM/move_group/planning_scene_monitor/parameter_updates
+/bvr_SIM/move_group/result
+/bvr_SIM/move_group/sense_for_plan/parameter_descriptions
+/bvr_SIM/move_group/sense_for_plan/parameter_updates
+/bvr_SIM/move_group/status
+/bvr_SIM/move_group/trajectory_execution/parameter_descriptions
+/bvr_SIM/move_group/trajectory_execution/parameter_updates
+/bvr_SIM/navsat/fix
+/bvr_SIM/navsat/fix/position/parameter_descriptions
+/bvr_SIM/navsat/fix/position/parameter_updates
+/bvr_SIM/navsat/fix/status/parameter_descriptions
+/bvr_SIM/navsat/fix/status/parameter_updates
+/bvr_SIM/navsat/fix/velocity/parameter_descriptions
+/bvr_SIM/navsat/fix/velocity/parameter_updates
+/bvr_SIM/navsat/vel
+/bvr_SIM/odom
+/bvr_SIM/pickup/cancel
+/bvr_SIM/pickup/feedback
+/bvr_SIM/pickup/goal
+/bvr_SIM/pickup/result
+/bvr_SIM/pickup/status
+/bvr_SIM/place/cancel
+/bvr_SIM/place/feedback
+/bvr_SIM/place/goal
+/bvr_SIM/place/result
+/bvr_SIM/place/status
+/bvr_SIM/planning_scene
+/bvr_SIM/planning_scene_world
+/bvr_SIM/platform_control/cmd_vel
+/bvr_SIM/rtabmap/cloud_ground
+/bvr_SIM/rtabmap/cloud_map
+/bvr_SIM/rtabmap/cloud_obstacles
+/bvr_SIM/rtabmap/global_path
+/bvr_SIM/rtabmap/global_path_nodes
+/bvr_SIM/rtabmap/global_pose
+/bvr_SIM/rtabmap/goal
+/bvr_SIM/rtabmap/goal_node
+/bvr_SIM/rtabmap/goal_out
+/bvr_SIM/rtabmap/goal_reached
+/bvr_SIM/rtabmap/gps/fix
+/bvr_SIM/rtabmap/grid_map
+/bvr_SIM/rtabmap/grid_map_updates
+/bvr_SIM/rtabmap/grid_prob_map
+/bvr_SIM/rtabmap/imu
+/bvr_SIM/rtabmap/info
+/bvr_SIM/rtabmap/initialpose
+/bvr_SIM/rtabmap/labels
+/bvr_SIM/rtabmap/landmarks
+/bvr_SIM/rtabmap/local_grid_empty
+/bvr_SIM/rtabmap/local_grid_ground
+/bvr_SIM/rtabmap/local_grid_obstacle
+/bvr_SIM/rtabmap/local_path
+/bvr_SIM/rtabmap/local_path_nodes
+/bvr_SIM/rtabmap/localization_pose
+/bvr_SIM/rtabmap/mapData
+/bvr_SIM/rtabmap/mapGraph
+/bvr_SIM/rtabmap/mapPath
+/bvr_SIM/rtabmap/octomap_binary
+/bvr_SIM/rtabmap/octomap_empty_space
+/bvr_SIM/rtabmap/octomap_full
+/bvr_SIM/rtabmap/octomap_global_frontier_space
+/bvr_SIM/rtabmap/octomap_grid
+/bvr_SIM/rtabmap/octomap_ground
+/bvr_SIM/rtabmap/octomap_obstacles
+/bvr_SIM/rtabmap/octomap_occupied_space
+/bvr_SIM/rtabmap/proj_map
+/bvr_SIM/rtabmap/scan_map
+/bvr_SIM/rtabmap/user_data_async
+/bvr_SIM/t265_odom
+/bvr_SIM/tag_detections
+/bvr_SIM/tag_detections_image
+/bvr_SIM/trajectory_execution_event
+/bvr_SIM/twist_marker_server/feedback
+/bvr_SIM/twist_marker_server/update
+/bvr_SIM/twist_marker_server/update_full
+/bvr_SIM/twist_marker_server_robot/cmd_vel
+/clock
+/diagnostics
+/gazebo/link_states
+/gazebo/model_states
+/gazebo/parameter_descriptions
+/gazebo/parameter_updates
+/gazebo/set_link_state
+/gazebo/set_model_state
+/rosout
+/rosout_agg
+/rviz_2d_nav_goal
+/tf
+/tf_static
+
+=================rostopic echo /bvr_SIM/joint_states================
+---
+header: 
+  seq: 23866
+  stamp: 
+    secs: 1905
+    nsecs: 615000000
+  frame_id: ''
+name: [bvr_SIM/front_left_wheel, bvr_SIM/front_right_wheel, bvr_SIM/main_arm_SIM/elbow_joint,
+  bvr_SIM/main_arm_SIM/gripper/finger_joint, bvr_SIM/main_arm_SIM/shoulder_lift_joint,
+  bvr_SIM/main_arm_SIM/shoulder_pan_joint, bvr_SIM/main_arm_SIM/wrist_1_joint, bvr_SIM/main_arm_SIM/wrist_2_joint,
+  bvr_SIM/main_arm_SIM/wrist_3_joint, bvr_SIM/rear_left_wheel, bvr_SIM/rear_right_wheel]
+position: [-9.095928479574411e-05, -9.100835257491724e-05, -2.3561944802668693, 3.018842686941525e-08, -0.7853979020439077, 7.191972350995002e-08, -0.2356194530955955, 1.5707963237463183, 2.1353576684646214e-09, -9.095979653661601e-05, -9.101095151287097e-05]
+velocity: [4.044532220268586e-07, 5.911945545495218e-07, -1.6260045426110393e-07, -5.784716375031172e-08, -7.418882653666195e-06, -2.0327573049817844e-06, 1.0533790136143047e-07, 8.964410474451556e-08, 1.7167687180472878e-08, 3.9008782748285693e-07, 6.056324414625986e-07]
+effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+---
+header: 
+  seq: 23867
+  stamp: 
+    secs: 1905
+    nsecs: 615000000
+  frame_id: ''
+name: [bvr_SIM/front_left_wheel, bvr_SIM/front_right_wheel, bvr_SIM/main_arm_SIM/elbow_joint,
+  bvr_SIM/main_arm_SIM/gripper/finger_joint, bvr_SIM/main_arm_SIM/shoulder_lift_joint,
+  bvr_SIM/main_arm_SIM/shoulder_pan_joint, bvr_SIM/main_arm_SIM/wrist_1_joint, bvr_SIM/main_arm_SIM/wrist_2_joint,
+  bvr_SIM/main_arm_SIM/wrist_3_joint, bvr_SIM/rear_left_wheel, bvr_SIM/rear_right_wheel]
+position: [-9.095928479574411e-05, -9.100835257491724e-05, -2.3561944802668693, 3.018842686941525e-08, -0.7853979020439077, 7.191972350995002e-08, -0.2356194530955955, 1.5707963237463183, 2.1353576684646214e-09, -9.095979653661601e-05, -9.101095151287097e-05]
+velocity: [4.044532220268586e-07, 5.911945545495218e-07, -1.6260045426110393e-07, -5.784716375031172e-08, -7.418882653666195e-06, -2.0327573049817844e-06, 1.0533790136143047e-07, 8.964410474451556e-08, 1.7167687180472878e-08, 3.9008782748285693e-07, 6.056324414625986e-07]
+effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+============= rostopic echo /bvr_SIM/bvr_SIM_odom_message_to_tf/pose ===================
+header: 
+  seq: 1598
+  stamp: 
+    secs: 1746
+    nsecs: 875000000
+  frame_id: "map"
+pose: 
+  position: 
+    x: 5.45742024727e-07
+    y: -3.20484278399e-07
+    z: 0.218416185655
+  orientation: 
+    x: 9.23456520372e-07
+    y: 4.55974128005e-06
+    z: -1.16368544813e-09
+    w: 0.999999999989
+---
+header: 
+  seq: 1599
+  stamp: 
+    secs: 1746
+    nsecs: 925000000
+  frame_id: "map"
+pose: 
+  position: 
+    x: 5.45132278169e-07
+    y: -3.20484306088e-07
+    z: 0.218416185655
+  orientation: 
+    x: 9.2345651992e-07
+    y: 4.55974128289e-06
+    z: -1.16406585033e-09
+    w: 0.999999999989
+---
+header: 
+  seq: 1600
+  stamp: 
+    secs: 1746
+    nsecs: 975000000
+  frame_id: "map"
+pose: 
+  position: 
+    x: 5.44522531627e-07
+    y: -3.20484333774e-07
+    z: 0.218416185655
+  orientation: 
+    x: 9.23456519463e-07
+    y: 4.55974128573e-06
+    z: -1.16444627273e-09
+    w: 0.999999999989
+---
+header: 
+  seq: 1601
+  stamp: 
+    secs: 1747
+    nsecs:  25000000
+  frame_id: "map"
+pose: 
+  position: 
+    x: 5.43912785061e-07
+    y: -3.20484361481e-07
+    z: 0.218416185655
+  orientation: 
+    x: 9.23456518988e-07
+    y: 4.55974128855e-06
+    z: -1.16482665893e-09
+    w: 0.999999999989
+---
